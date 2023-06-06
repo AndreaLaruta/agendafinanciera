@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <Button
+        android:id="@+id/button_cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUENTAS" />
+
+    <Button
+        android:id="@+id/button_movimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableTint="#ff0000"
+        android:text="MOVIMIENTOS" />
+
+    <Button
+        android:id="@+id/button_presupuesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableTint="#ff0000"
+        android:text="PRESUPUESTO" />
+
+    <Button
+        android:id="@+id/button_recordatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableTint="#ff0000"
+        android:text="RECORDATORIOS" />
+
+    <Button
+        android:id="@+id/button_objetivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableTint="#ff0000"
+        android:text="MIS OBJETIVOS" />
+</LinearLayout>
