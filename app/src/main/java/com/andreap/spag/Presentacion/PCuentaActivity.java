@@ -148,6 +148,7 @@ public class PCuentaActivity extends AppCompatActivity implements IPresentacion{
         tipoCuentaArray.add("Caja de Ahorro");
         tipoCuentaArray.add("Cuenta Corriente");
 
+
         ArrayAdapter adapterTipoCuenta = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, tipoCuentaArray);
         tipoCuenta.setAdapter(adapterTipoCuenta);
     }
