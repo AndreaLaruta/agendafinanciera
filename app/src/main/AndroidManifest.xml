@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SPAG"
         tools:targetApi="31">
         <activity
+            android:name=".Presentacion.PContacto"
+            android:exported="false" />
+        <activity
             android:name=".Presentacion.PRegistrarMovimiento"
             android:exported="false" />
         <activity
