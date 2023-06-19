@@ -12,8 +12,9 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mis Cuentas"
         android:gravity="center"
+        android:textStyle="bold"
+        android:text="Mis Cuentas"
         android:layout_margin="3dp"
         tools:ignore="MissingConstraints" />
 
